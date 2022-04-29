@@ -3,4 +3,4 @@
 <a href="https://codepen.io/supermarsgalaxy/pen/popNQBM" target="_blank"> CodePen </a>
 </p>
 
-<img src="https://user-images.githubusercontent.com/98436419/159778446-f0a920ff-956b-4d98-8094-a1381a0f4cfd.png">
+<img src="https://user-images.githubusercontent.com/98436419/166069518-0ae3726b-24be-4ad9-9ebc-4d11ee5d8cdc.png">
