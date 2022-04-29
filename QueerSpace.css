@@ -1,35 +1,36 @@
 #container {
-  height: 100%;
-  width: 100%;
-  background-color: #f2f6fb;
+  height: fit-content;
+  width: fit-content;
+  background-color: #fcf9fe;
   display: flex;
 }
 
 #navbar {
   width: 100%;
-  height: 40px;
+  height: fit-content;
   background-color: white;
   display: flex;
   padding: 10px;
   justify-content: space-between;
+  border-radius: 10px;
+  border: 1px solid #f4e9fb;
 }
 #leftnav {
   display: flex;
-  color: grey;
 }
 #rightnav {
   display: flex;
 }
 .navtext {
-  margin: 1em;
+  padding: 1em;
   color: grey;
-  height: 30px;
-  width: 100px;
   border: transparent;
+  border-radius: 5px;
   background-color: white;
 }
 .navtext:hover {
-  background-color: #c9daee;
+  background-color: #e0cfeb;
+  color: white;
 }
 
 #searchbar {
@@ -37,11 +38,13 @@
   padding: 4px;
   margin: 1em;
   margin-top: 0;
+  border-radius: 10px;
 }
 #leftbar {
   height: 1000px;
   width: 20%;
-  background-color: #6393ce;
+  background-color: #14ba5e;
+  text-shadow: 2px 2px #12a855;
 }
 .title {
   margin: 1em;
@@ -49,23 +52,28 @@
   padding-top: 0;
   font-size: 20px;
   color: white;
+  text-shadow: 1px 1px #12a855;
 }
 #prideflag {
   border-radius: 50%;
   width: 30px;
   height: 30px;
 }
+#tabs-container {
+  text-align: center;
+}
 .tabs {
-  background-color: #6393ce;
+  background-color: #14ba5e;
   padding: 8px;
   margin: 1em;
   color: white;
   font-size: 18px;
-  width: 200px;
+  width: fit-content;
   border: transparent;
+  border-radius: 5px;
 }
 .tabs:hover {
-  background-color: #3d78c2;
+  background-color: #12a855;
 }
 
 #content {
@@ -75,14 +83,13 @@
 }
 
 #text {
-  color: #1c3759;
+  color: black;
 }
 #zip {
   height: 18px;
   padding: 4px;
   margin: 1em;
-  margin-top: 0;
-  width: 50%;
+  width: 44%;
 }
 #boxc {
   width: 100%;
@@ -98,25 +105,38 @@
   background-color: white;
   font-size: 14px;
   box-shadow: 10px 10px 5px lightgrey;
+  border-radius: 5px;
 }
 .business {
   width: 250px;
   height: 150px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .boxtext {
   margin: 5px;
-  color: #1c3759;
+  color: #0f1427;
 }
 .tag-container {
   display: flex;
   justify-content: space-around;
 }
 .post-tag {
-  background-color: #f2f6fb;
-  color: gray;
-  width: auto;
-  padding: 2px;
+  background-color: #F98866;
+  color: white;
+  padding: 7px;
   margin-top: 2px;
   border-radius: 12px;
   margin-right: 2px;
+}
+.post-tag:hover {
+  background-color: #FF420E;
+  color: white;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #f0e0fa;
 }
