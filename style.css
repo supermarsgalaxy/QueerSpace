@@ -1,36 +1,59 @@
 #container {
-  height: fit-content;
   width: fit-content;
-  background-color: #fcf9fe;
+  /* background-image: url("https://cms-assets.tutsplus.com/cdn-cgi/image/width=1700/uploads/users/158/posts/37453/image-upload/RainbowGradientOverlay13.jpg");
+  background-repeat: no-repeat; */
+  height: 100%;
+  /* background-position: center;
+  background-size: cover; */
+  overflow: hidden;
+  position: relative;
   display: flex;
 }
 
+.background {
+  opacity: 0.8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1100px;
+}
 #navbar {
   width: 100%;
   height: fit-content;
-  background-color: white;
+  background-color: transparent;
   display: flex;
   padding: 10px;
   justify-content: space-between;
   border-radius: 10px;
-  border: 1px solid #f4e9fb;
+  border: 1px solid white;
 }
+
 #leftnav {
   display: flex;
 }
+
 #rightnav {
   display: flex;
 }
-.navtext {
+
+#navOverview {
   padding: 1em;
-  color: grey;
+  color: white;
   border: transparent;
   border-radius: 5px;
-  background-color: white;
 }
-.navtext:hover {
-  background-color: #e0cfeb;
+
+.navtext {
+  padding: 1em;
   color: white;
+  border: transparent;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.navtext:hover {
+  font-weight: 600;
 }
 
 #searchbar {
@@ -40,30 +63,40 @@
   margin-top: 0;
   border-radius: 10px;
 }
+
+#search-input {
+  border: 1px solid transparent;
+}
+
 #leftbar {
   height: 1000px;
   width: 20%;
-  background-color: #14ba5e;
-  text-shadow: 2px 2px #12a855;
+  border: 2px solid white;
+  margin: 1em;
+  border-radius: 10px;
 }
+
 .title {
   margin: 1em;
   padding: 8px;
   padding-top: 0;
   font-size: 20px;
   color: white;
-  text-shadow: 1px 1px #12a855;
+  text-shadow: 1px 1px darkgoldenrod;
 }
+
 #prideflag {
   border-radius: 50%;
   width: 30px;
   height: 30px;
 }
+
 #tabs-container {
   text-align: center;
 }
+
 .tabs {
-  background-color: #14ba5e;
+  background-color: transparent;
   padding: 8px;
   margin: 1em;
   color: white;
@@ -71,9 +104,11 @@
   width: fit-content;
   border: transparent;
   border-radius: 5px;
+  text-shadow: 1px 1px darkgoldenrod;
 }
+
 .tabs:hover {
-  background-color: #12a855;
+  font-weight: 600;
 }
 
 #content {
@@ -83,60 +118,98 @@
 }
 
 #text {
-  color: black;
+  color: white;
+  font-size: 20px;
 }
+
 #zip {
   height: 18px;
   padding: 4px;
   margin: 1em;
   width: 44%;
 }
+
 #boxc {
-  width: 100%;
+  width: fit-content;
   height: 700px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.boxes {
+.box-line1 {
   width: 250px;
   height: 320px;
   margin: 1em;
   background-color: white;
   font-size: 14px;
-  box-shadow: 10px 10px 5px lightgrey;
   border-radius: 5px;
+  box-shadow: 10px 10px 5px darkgoldenrod;
 }
+
+.box-line2 {
+  width: 250px;
+  height: 320px;
+  margin: 1em;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #eacc15, 10px 10px 5px #a6ce17;
+}
+
+.box-line3 {
+  width: 250px;
+  height: 320px;
+  margin: 1em;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px darkgoldenrod;
+}
+.box-line4 {
+  width: 250px;
+  height: 320px;
+  margin: 1em;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px darkgoldenrod;
+}
+
 .business {
   width: 250px;
   height: 150px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+
 .boxtext {
   margin: 5px;
   color: #0f1427;
 }
+
 .tag-container {
   display: flex;
   justify-content: space-around;
 }
+
 .post-tag {
-  background-color: #F98866;
+  background-color: #f98866;
   color: white;
   padding: 7px;
   margin-top: 2px;
   border-radius: 12px;
   margin-right: 2px;
 }
+
 .post-tag:hover {
-  background-color: #FF420E;
+  background-color: #ff420e;
   color: white;
 }
+
 input[type="text"] {
   width: 100%;
   padding: 12px 20px;
   box-sizing: border-box;
   border-radius: 10px;
-  border: 1px solid #f0e0fa;
+  border: 1px solid #8781d4;
 }
